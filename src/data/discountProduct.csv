@@ -1,0 +1,6 @@
+DiscountPercentage,ExpectedFinalPrice
+0, 1000.0
+10, 900.0
+25, 750.0
+33.3, 667.0
+50, 500.0

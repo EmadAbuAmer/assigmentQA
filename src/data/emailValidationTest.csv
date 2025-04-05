@@ -1,0 +1,6 @@
+EmailAddress,ExpectedIsValid
+example.com,false
+@example.com,false
+example@com,false
+example@example.com,true
+john.doe@gmail.com,true
