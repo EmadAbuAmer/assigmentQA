@@ -19,11 +19,14 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 import org.junit.jupiter.api.Timeout;
+import org.junit.jupiter.api.parallel.Execution;
+import org.junit.jupiter.api.parallel.ExecutionMode;
 
 import main.najah.code.Calculator;
 
 @TestMethodOrder(OrderAnnotation.class)
 @DisplayName("Calculator Tests")
+@Execution(ExecutionMode.CONCURRENT)
 public class CalculatorTest {
 	
     private	Calculator calc;
